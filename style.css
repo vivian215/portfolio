@@ -1,0 +1,92 @@
+h1, h2, h3, p, a {
+    font-weight: 200;
+    color: rgb(63, 63, 63);
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sidebar-name {
+    margin-bottom: 70px;
+}
+
+.sidebar-title {
+    margin-bottom: 60px;
+}
+
+.sidebar-text:hover {
+    font-weight:800;
+}
+
+#body {
+    margin-left: 30%;
+    width: 70%;
+    /* padding-top: 0; */
+    /* overflow: hidden; */
+}
+
+#about-me {
+    background-color: #536f85;
+    /* background-color: rgb(143, 143, 143); */
+    /* height: 800px; */
+    padding-bottom: 130px;
+}
+
+.white-text {
+    color: white;
+}
+
+.section-title {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+}
+
+#about-me-text {
+    float: right; 
+    width: 350px;
+    margin-right: 10%;
+    padding-top: 250px;
+}
+
+#vivian-pic {
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#apps {
+    background-color: #dfdedc;
+    /* background-color:rgb(214, 214, 214); */
+    margin-top: 0;
+    padding-top: 0;
+    height: 1000px;
+}
+
+#translations {
+    background-color: #8f625d;
+    /* background-color:rgb(143, 143, 143); */
+    height: 1000px;
+}
+
+
+
+
