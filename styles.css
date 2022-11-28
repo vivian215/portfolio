@@ -1,7 +1,11 @@
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, .row {
     font-weight: 200;
     color: rgb(63, 63, 63);
     font-family: "Montserrat", sans-serif;
+}
+
+#translations {
+    color: white;
 }
 
 a {
@@ -16,10 +20,11 @@ p {
     font-size: 20px;
 }
 
+/* sidebar */
 .sidebar {
     width: 30%;
     float: left;
-    padding-top: 100px;
+    margin-top: 5%;
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
@@ -30,10 +35,21 @@ p {
 
 .sidebar-title {
     margin-bottom: 60px;
+   
+}
+
+.sidebar-text {
+    color: rgb(87, 87, 87);
 }
 
 .sidebar-text:hover {
     font-weight:800;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+.pic {
+    max-width: 90%;
 }
 
 #body {
@@ -43,6 +59,7 @@ p {
     /* overflow: hidden; */
 }
 
+/*about section*/
 #about-me {
     background-color: #536f85;
     /* background-color: rgb(143, 143, 143); */
@@ -58,21 +75,31 @@ p {
     text-align: center;
     padding-top: 50px;
     font-weight: 500;
+    margin-bottom: 5%;
 }
 
+/* top, right, bottom, left */
 #about-me-text {
-    float: right; 
-    width: 350px;
-    margin-right: 10%;
-    padding-top: 250px;
+    /* float: right;  */
+    /* width: 300px; */
+    /* margin-right: 5%; */
+    padding: 15% 10%;
 }
 
 #vivian-pic {
-    float: left;
+    /* float: left;
     margin-left: 100px;
     margin-top: 50px;
+    max-width: 500px;
+    width: auto;
+    height: auto; */
+    max-width: 90%;
+    /* padding-left: 5%;
+    padding-top: 5%; */
+    align-self: center;
 }
 
+/* apps! */
 #apps {
     background-color: #dfdedc;
     /* background-color:rgb(214, 214, 214); */
@@ -81,10 +108,15 @@ p {
     height: 1000px;
 }
 
+/* translations :) */
 #translations {
     background-color: #8f625d;
     /* background-color:rgb(143, 143, 143); */
     height: 1000px;
+}
+
+.book-title {
+    margin-bottom: 20px;
 }
 
 

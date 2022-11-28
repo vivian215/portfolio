@@ -6,37 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vivian Zhao</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 <!-- sidebar -->
+
+
 <nav class="sidebar" style="position:fixed">
     <h1 class="sidebar-name">Vivian<br>Zhao</h1>
     <h2 class="sidebar-title"><a class="sidebar-text" href="#about-me">About Me</a></h2>
     <h2 class="sidebar-title"><a class="sidebar-text" href="#apps">Apps</a></h2>
-    <h2 class="sidebar-title"><a class="sidebar-text" >Websites</a></h2>
+    <h2 class="sidebar-title"><a class="sidebar-text">Websites</a></h2>
     <h2 class="sidebar-title"><a class="sidebar-text" href="#translations">Translations</a></h2>
-    <h2 class="sidebar-title"><a class="sidebar-text" >Art</a></h2>
+    <h2 class="sidebar-title"><a class="sidebar-text">Art</a></h2>
 </nav>
-<div id="body">
+<div id="body" class="container">
   <!-- About Me -->
-  <div id="about-me">
+  <div id="about-me" class="row">
     <h1 class="section-title white-text" id="about-me-title">About Me</h1>
-    <p class = "white-text" id="about-me-text">Hi! My name is Vivian Zhao, and I am currently a senior at Lynbrook High School. This website contains some of my projects.</p>
-    <div id="vivian-pic">
-      <img src="vivian-pic.jpg" alt="Picture of Me!">
-    </div>
+    <div class="col-sm-6 text-center pic"><img id="vivian-pic" src="vivian-pic.jpg" alt="Picture of Me!"></div>
+    <p class="white-text col-sm-6" id="about-me-text">Hi! My name is Vivian Zhao, and I am currently a senior at Lynbrook High School. This website contains some of my projects.</p>
     <div style="clear:both"></div>
   </div>
   <!-- Apps -->
-  <div id="apps">
+  <div id="apps" class="row">
     <h1 class="section-title" id="apps-title">Apps</h1>
     <div style="clear:both"></div>
   </div>
-  <div id="translations">
+  <div id="translations" class="row">
     <h1 class="section-title white-text">Translations</h1>
+    <div id="governor">
+      <div class="col-sm-6 text-center">
+        <h2 class="white-text book-title">The Governor is Sick (督主有病)</h2>
+        <img class="pic" src="governor.jpg" alt="Book Cover">
+      </div>
+      <div class="col-sm-6">
+        <p class="white-text">August 28, 2021 - Present</p>
+        <p class="white-text">Word Count: a lot lol</p>
+        <a href="https://www.novelupdates.com/series/governors-illness/" target="blank">Readers: 1835</a>
+        <a href="https://www.novelupdates.com/series/governors-illness/" target="blank">Rating: 4.5/50, 64 votes</a>
+        <p class="white-text">Summary: A novel set in ancient China following the lives of an assassin and future governor. </p>
+        <a class="book-link" href="" target="blank"><br>Read Volume 1!</a>
+        <a class="book-link" href="" target="blank"><br>Read Volume 2!</a>
+      </div>
+    </div>
     <div style="clear:both"></div>
   </div>
 </div>
