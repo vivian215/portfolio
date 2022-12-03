@@ -49,7 +49,7 @@ p {
 }
 
 .pic {
-    max-width: 90%;
+    max-width: 80%;
 }
 
 #body {
@@ -112,13 +112,30 @@ p {
 #translations {
     background-color: #8f625d;
     /* background-color:rgb(143, 143, 143); */
-    height: 1000px;
+    padding-bottom: 5%;
+    padding-right: 5%;
 }
 
 .book-title {
     margin-bottom: 20px;
 }
 
+.book-link {
+    color: white;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
 
+.book-link:hover {
+    color: rgb(131, 177, 247);
+}
+
+#book-date {
+    margin-top: 11%;
+}
+
+.book {
+    margin-bottom: 7%;
+}
 
 
