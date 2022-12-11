@@ -29,22 +29,93 @@
   <!-- About Me -->
   <div id="about-me" class="row">
     <h1 class="section-title white-text" id="about-me-title">About Me</h1>
-    <div class="col-sm-6 text-center pic"><img id="vivian-pic" src="vivian-pic.jpg" alt="Picture of Me!"></div>
+    <div class="col-sm-6 text-center pic"><img id="vivian-pic" src="images/vivian-pic.jpg" alt="Picture of Me!"></div>
     <p class="white-text col-sm-6" id="about-me-text">Hi! My name is Vivian Zhao, and I am currently a senior at Lynbrook High School. This website contains some of my projects.</p>
     <div style="clear:both"></div>
   </div>
+
   <!-- Apps -->
-  <div id="apps" class="row">
+  <div id="apps" class="row section">
     <h1 class="section-title" id="apps-title">Apps</h1>
+    <!-- Noise Alerter -->
+    <div id="noise-alerter" class="row app">
+      <div class="col-sm-6">
+        <h2 class="book-title">Noise Alerter</h2>
+        <p class="app-descrip">A home security app that alerts the user of any loud noises in their home while they’re away, and allows them to listen to short clips of the noises as the app refreshes in real time.
+          <br><br>Created During: PioneerHacks III
+          <br><br>Awarded: Best Mobile App out of 100+ participants
+          <br><br>Languages/Tools Used: Java, Android Studio, Firebase
+          <br><br><a href="https://devpost.com/software/noise-alerter" target="blank">Full Demo</a>
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <img class="pic app-pic" src="images/noise-alerter.gif" alt="Gif of App">
+        <img class="pic app-pic" src="images/noise-alerter-pic.png" alt="Picture of App">
+      </div>
+    </div>
+    <!-- Gem Rush -->
+    <div id="gem-rush" class="row app">
+      <div class="col-sm-6">
+        <h2 class="book-title">Gem Rush</h2>
+        <p class="app-descrip">A 4D endless runner game created for the Cave Automatic Virtual Environment, a mixed-reality platform including three surrounding wall-sized screens and a moving floor. The player races through a mine cave while attacking enemies and collecting gems.
+          <br><br>Created During: National High School Game Academy (Carnegie Mellon University Pre-College)
+          <br><br>Role: Lead Programmer
+          <br><br>Languages/Tools Used: C#, Unity
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <img class="pic gem-pic" src="images/gem-start-screen.jpg" alt="Gif of App">
+      </div>
+      <div style="margin-top:5px" class="col-sm-12">
+        <img class="pic gem-pic small-pic" src="images/gem-tilt.gif" alt="Gif of player tilting">
+        <img class="pic gem-pic small-pic" src="images/gem-gem.gif" alt="Gif of gem collection">
+        <img class="pic gem-pic small-pic" src="images/gem-bat.gif" alt="Gif of enemy bat">
+      </div>
+    </div>
+    <!-- Chinese Checkers AI-->
+    <div id="chinese-checkers" class="row app">
+      <div class="col-sm-6">
+        <h2 class="book-title">Chinese Checkers AI</h2>
+        <p class="app-descrip">An AI that can play Chinese Checkers, a board game in which players race to get their pieces to the opposite corner. The program calculates the best move to take using locally optimized strategies.
+          <br><br>Created During: Norcal Hacks
+          <br><br>Awarded: First Place out of 100+ participants
+          <br><br>Languages/Tools Used: Java
+          <br><br><a href="https://devpost.com/software/noise-alerter" target="blank">Full Demo</a>
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <img class="pic checkers-pic" src="images/checkers.gif" alt="Gif of App">
+        <p style="font-size:20px">Red = me, Green = AI</p>
+        <p style="font-size:12px">Disclaimer: Used open-source code for GUI</p>
+      </div>
+    </div>
+    <!-- Schedulable-->
+    <div id="schedulable" class="row app">
+      <div class="col-sm-6">
+        <h2 class="book-title">Schedulable</h2>
+        <p class="app-descrip">A productivity app that displays the user's schedule in a color-coded clock. The app also uses text-to-speech to notify the user when it is time to start their next task.
+          <br><br>Created During: CodeHers Hack
+          <br><br>Awarded: Best App out of 100+ participants
+          <br><br>Languages/Tools Used: Java, Android
+          <br><br><a href="https://devpost.com/software/schedulable" target="blank">Full Demo</a>
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <img class="pic app-pic" src="images/schedulable-events.gif" alt="Gif of App">
+        <img class="pic app-pic" src="images/schedulable-clock.gif" alt="Gif of App">
+      </div>
+    </div>
     <div style="clear:both"></div>
   </div>
-  <div id="translations" class="row">
+
+  <!-- Translations -->
+  <div id="translations" class="row section">
     <h1 class="section-title white-text">Translations</h1>
     <!-- the governor is sick -->
     <div id="governor" class="row book">
       <div class="col-sm-6 text-center">
         <h2 class="white-text book-title">The Governor is Sick (督主有病)</h2>
-        <img class="pic" src="governor.jpg" alt="Book Cover">
+        <img class="pic" src="images/governor.jpg" alt="Book Cover">
       </div>
       <div class="col-sm-6">
         <p class="white-text" id="book-date">August 28, 2021 - Present<br></p>
@@ -52,7 +123,7 @@
         <a href="https://www.novelupdates.com/series/governors-illness/" target="blank"><p class="book-link">Readers: 1850</p></a>
         <a href="https://www.novelupdates.com/series/governors-illness/" target="blank"><p class="book-link">Rating: 4.5/5, 64 votes</p></a>
         <p class="white-text"><em>A novel set in ancient China following the lives of an assassin and the governor of the Eastern Depot.</em></p>
-        <p class="white-text">As an indomitable assassin and the most wanted criminal of the Eastern Depot, Xiahou Lian did not expect that the delicate youth he had met in his childhood would become a powerful and arrogant governor. As for that governor, there was a beam of white moonlight in his heart, a memory of someone he had coveted for a long time yet was out of reach. "I'll become a ghost for you, and you'll become a saint for me."</p>
+        <p class="white-text">As an indomitable assassin and the most wanted criminal of the Eastern Depot, Xiahou Lian did not expect that the delicate youth he had met in his childhood would become a powerful and arrogant governor. As for that governor, there was a beam of white moonlight in his heart, a memory of someone he had coveted for a long time yet was out of reach.</p>
         <a href="" target="blank"><p class="book-link">Read Volume 1!</p></a>
         <a href="" target="blank"><p class="book-link">Read Volume 2!</p></a>
       </div>
@@ -61,15 +132,15 @@
     <div id="case-files" class="row book">
       <div class="col-sm-6 text-center">
         <h2 class="white-text book-title">Special Case Files of Rebirth<br>(重生之特别案卷)</h2>
-        <img class="pic" src="case-files.jpg" alt="Book Cover">
+        <img class="pic" src="images/case-files.jpg" alt="Book Cover">
       </div>
       <div class="col-sm-6">
         <p class="white-text" id="book-date"><br>October 15, 2020 - August 21, 2021<br></p>
         <p class="white-text">Word Count: a lot lol</p>
         <a href="https://www.novelupdates.com/series/special-case-files-of-rebirth/" target="blank"><p class="book-link">Readers: 2546</p></a>
         <a href="https://www.novelupdates.com/series/special-case-files-of-rebirth/" target="blank"><p class="book-link">Rating: 4.3/5, 98 votes</p></a>
-        <p class="white-text"><em>A modern mystery novel about an assassin who transmigrates into a policeman.</em></p>
-        <p class="white-text">After the mighty assassin Hei Xiao is assassinated, he wakes up as policeman Guan Jin, a member of the Special Cases Unit. Hei Xiao seeks to avenge himself while carefully keeping his true identity concealed. However, the more crimes he solves, the more he realizes that perhaps his new life wouldn't be so bad...</p>
+        <p class="white-text"><em>A modern mystery novel about an assassin-turned-policeman.</em></p>
+        <p class="white-text">After the mighty assassin Hei Xiao is assassinated, he wakes up as policeman Guan Jin, a member of the Special Cases Unit. Hei Xiao seeks to avenge himself while carefully keeping his true identity concealed. However, the more crimes he solves, the more he realizes that perhaps his new life wouldn't be so bad.</p>
         <a href="" target="blank"><p class="book-link">Read here!</p></a>
       </div>
     </div>
@@ -77,7 +148,7 @@
     <div id="supernatural-world" class="row book">
       <div class="col-sm-6 text-center">
         <h2 class="white-text book-title">Falling in Love in the <br>Supernatural World<br>(在灵力世界里谈恋爱)</h2>
-        <img class="pic" src="supernatural-world.jpg" alt="Book Cover">
+        <img class="pic" src="images/supernatural-world.jpg" alt="Book Cover">
       </div>
       <div class="col-sm-6">
         <p class="white-text" id="book-date"><br><br>August 25, 2020 - October 14, 2020<br></p>
@@ -93,7 +164,7 @@
     <div id="nirvana-rebirth" class="row book">
       <div class="col-sm-6 text-center">
         <h2 class="white-text book-title">Nirvana Rebirth / Astrolabe Reboot<br>(星盘重启)</h2>
-        <img class="pic" src="nirvana-rebirth.png" alt="Book Cover">
+        <img class="pic" src="images/nirvana-rebirth.png" alt="Book Cover">
       </div>
       <div class="col-sm-6">
         <p class="white-text" id="book-date"><br>March 15, 2020 - August 24, 2020<br></p>

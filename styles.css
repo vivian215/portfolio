@@ -59,6 +59,21 @@ p {
     /* overflow: hidden; */
 }
 
+@media (max-width: 1000px) {
+    .sidebar {
+        display: none;
+    }
+    #body {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.section {
+    padding-left: 5%;
+}
+
+
 /*about section*/
 #about-me {
     background-color: #536f85;
@@ -103,9 +118,7 @@ p {
 #apps {
     background-color: #dfdedc;
     /* background-color:rgb(214, 214, 214); */
-    margin-top: 0;
-    padding-top: 0;
-    height: 1000px;
+  
 }
 
 /* translations :) */
@@ -138,4 +151,37 @@ p {
     margin-bottom: 7%;
 }
 
+#apps {
+    padding-bottom: 5%;
+}
+
+.app {
+    margin-bottom: 12%;
+}
+
+.app-pic {
+    border: 10px solid #3b3b3b;
+    border-top-width: 25px;
+    border-bottom-width: 25px;
+    border-radius: 10px;
+    max-width: 40%;
+    margin-bottom: 10px;
+    margin-right: 5%;
+}
+
+.gem-pic, .checkers-pic {
+    border: 3px solid #3b3b3b;
+}
+
+.small-pic {
+    max-width: 30%;
+}
+
+.checkers-pic {
+    max-width: 65%;
+}
+
+.app-descrip {
+    padding-right: 5%;
+}
 
