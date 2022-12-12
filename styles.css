@@ -141,7 +141,7 @@ p {
     text-decoration-line: underline;
 }
  
-.book-link:hover {
+.book-link:hover, .web-link:hover {
     color: rgb(131, 177, 247);
 }
  
@@ -206,3 +206,19 @@ p {
 .app-link {
     text-decoration-line: underline;
 }
+
+#websites {
+    background-color: #7f9392;
+    padding-bottom: 10%;
+}
+
+.web-title, .web-pic {
+    margin-left: 5%;
+}
+
+.web-pic {
+    max-width: 90%;
+    margin-top: 5%;
+    border: 3px solid #3b3b3b;
+}
+
