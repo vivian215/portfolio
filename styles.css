@@ -24,11 +24,18 @@ p {
  
 /* sidebar */
 .sidebar {
-    width: 30%;
+    width: 20%;
     float: left;
     margin-top: 5%;
     text-align: center;
     font-family: "Montserrat", sans-serif;
+}
+
+#body {
+    margin-left: 20%;
+    width: 80%;
+    /* padding-top: 0; */
+    /* overflow: hidden; */
 }
  
 .sidebar-name {
@@ -54,12 +61,7 @@ p {
     max-width: 80%;
 }
  
-#body {
-    margin-left: 30%;
-    width: 70%;
-    /* padding-top: 0; */
-    /* overflow: hidden; */
-}
+
  
 @media (max-width: 1000px) {
     .sidebar {
@@ -100,20 +102,8 @@ p {
     /* float: right;  */
     /* width: 300px; */
     /* margin-right: 5%; */
-    padding: 15% 10%;
-}
- 
-#vivian-pic {
-    /* float: left;
-    margin-left: 100px;
-    margin-top: 50px;
-    max-width: 500px;
-    width: auto;
-    height: auto; */
-    max-width: 90%;
-    /* padding-left: 5%;
-    padding-top: 5%; */
-    align-self: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
  
 /* apps! */
@@ -151,6 +141,10 @@ p {
  
 .book {
     margin-bottom: 7%;
+}
+
+.vertical-book {
+    max-width: 50%;
 }
  
 #apps {
