@@ -222,3 +222,12 @@ p {
     border: 3px solid #3b3b3b;
 }
 
+#art {
+    background-color: #c4b28c;
+    padding-bottom: 10%;
+}
+
+.art-pic {
+    border: 3px solid #3b3b3b;
+}
+
