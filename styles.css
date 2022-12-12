@@ -3,23 +3,25 @@ h1, h2, h3, p, a, .row {
     color: rgb(63, 63, 63);
     font-family: "Montserrat", sans-serif;
 }
-
+ 
+html,body {overflow-x: hidden;}
+ 
 #translations {
     color: white;
 }
-
-a {
+ 
+.sidebar-text {
     text-decoration: none;
 }
-
+ 
 h1 {
     font-size: 50px;
 }
-
+ 
 p {
     font-size: 20px;
 }
-
+ 
 /* sidebar */
 .sidebar {
     width: 30%;
@@ -28,37 +30,37 @@ p {
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
-
+ 
 .sidebar-name {
     margin-bottom: 70px;
 }
-
+ 
 .sidebar-title {
     margin-bottom: 60px;
    
 }
-
+ 
 .sidebar-text {
     color: rgb(87, 87, 87);
 }
-
+ 
 .sidebar-text:hover {
     font-weight:800;
     text-decoration: none;
     color: rgb(87, 87, 87);
 }
-
+ 
 .pic {
     max-width: 80%;
 }
-
+ 
 #body {
     margin-left: 30%;
     width: 70%;
     /* padding-top: 0; */
     /* overflow: hidden; */
 }
-
+ 
 @media (max-width: 1000px) {
     .sidebar {
         display: none;
@@ -68,12 +70,12 @@ p {
         margin-left: 0;
     }
 }
-
+ 
 .section {
     padding-left: 5%;
 }
-
-
+ 
+ 
 /*about section*/
 #about-me {
     background-color: #536f85;
@@ -81,18 +83,18 @@ p {
     /* height: 800px; */
     padding-bottom: 130px;
 }
-
+ 
 .white-text {
     color: white;
 }
-
+ 
 .section-title {
     text-align: center;
     padding-top: 50px;
     font-weight: 500;
     margin-bottom: 5%;
 }
-
+ 
 /* top, right, bottom, left */
 #about-me-text {
     /* float: right;  */
@@ -100,7 +102,7 @@ p {
     /* margin-right: 5%; */
     padding: 15% 10%;
 }
-
+ 
 #vivian-pic {
     /* float: left;
     margin-left: 100px;
@@ -113,14 +115,14 @@ p {
     padding-top: 5%; */
     align-self: center;
 }
-
+ 
 /* apps! */
 #apps {
     background-color: #dfdedc;
     /* background-color:rgb(214, 214, 214); */
-  
+ 
 }
-
+ 
 /* translations :) */
 #translations {
     background-color: #8f625d;
@@ -128,37 +130,37 @@ p {
     padding-bottom: 5%;
     padding-right: 5%;
 }
-
+ 
 .book-title {
     margin-bottom: 20px;
 }
-
+ 
 .book-link {
     color: white;
     font-size: 20px;
     text-decoration-line: underline;
 }
-
+ 
 .book-link:hover {
     color: rgb(131, 177, 247);
 }
-
+ 
 #book-date {
     margin-top: 11%;
 }
-
+ 
 .book {
     margin-bottom: 7%;
 }
-
+ 
 #apps {
     padding-bottom: 5%;
 }
-
+ 
 .app {
     margin-bottom: 12%;
 }
-
+ 
 .app-pic {
     border: 10px solid #3b3b3b;
     border-top-width: 25px;
@@ -168,20 +170,39 @@ p {
     margin-bottom: 10px;
     margin-right: 5%;
 }
-
-.gem-pic, .checkers-pic {
+ 
+.gem-pic, .checkers-pic, .gem-row-pic {
     border: 3px solid #3b3b3b;
 }
-
+ 
+.gem-row-pic {
+    max-width: 80%;
+}
+ 
 .small-pic {
     max-width: 30%;
 }
-
+ 
 .checkers-pic {
     max-width: 65%;
 }
-
+ 
+.egg-pic, .food-row-pic {
+    border: 10px solid #3b3b3b;
+    border-left-width: 25px;
+    border-right-width: 25px;
+    border-radius: 10px;
+    max-width: 60%;
+    margin-bottom: 10px;
+    margin-right: 5%;
+}
+ 
+.food-row-pic {max-width: 90%;}
+ 
 .app-descrip {
     padding-right: 5%;
 }
-
+ 
+.app-link {
+    text-decoration-line: underline;
+}

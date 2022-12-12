@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +12,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-
+ 
 <body>
 <!-- sidebar -->
-
-
+ 
+ 
 <nav class="sidebar" style="position:fixed">
     <h1 class="sidebar-name">Vivian<br>Zhao</h1>
     <h2 class="sidebar-title"><a class="sidebar-text" href="#about-me">About Me</a></h2>
@@ -33,7 +33,7 @@
     <p class="white-text col-sm-6" id="about-me-text">Hi! My name is Vivian Zhao, and I am currently a senior at Lynbrook High School. This website contains some of my projects.</p>
     <div style="clear:both"></div>
   </div>
-
+ 
   <!-- Apps -->
   <div id="apps" class="row section">
     <h1 class="section-title" id="apps-title">Apps</h1>
@@ -45,7 +45,7 @@
           <br><br>Created During: PioneerHacks III
           <br><br>Awarded: Best Mobile App out of 100+ participants
           <br><br>Languages/Tools Used: Java, Android Studio, Firebase
-          <br><br><a href="https://devpost.com/software/noise-alerter" target="blank">Full Demo</a>
+          <br><br><a href="https://devpost.com/software/noise-alerter" target="blank" class="app-link">Full Demo</a>
         </p>
       </div>
       <div class="col-sm-6">
@@ -55,21 +55,38 @@
     </div>
     <!-- Gem Rush -->
     <div id="gem-rush" class="row app">
-      <div class="col-sm-6">
-        <h2 class="book-title">Gem Rush</h2>
-        <p class="app-descrip">A 4D endless runner game created for the Cave Automatic Virtual Environment, a mixed-reality platform including three surrounding wall-sized screens and a moving floor. The player races through a mine cave while attacking enemies and collecting gems.
-          <br><br>Created During: National High School Game Academy (Carnegie Mellon University Pre-College)
-          <br><br>Role: Lead Programmer
-          <br><br>Languages/Tools Used: C#, Unity
-        </p>
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="book-title">Gem Rush</h2>
+          <p class="app-descrip">A 4D endless runner game created for the Cave Automatic Virtual Environment, a mixed-reality platform including three surrounding wall-sized screens and a moving floor. The player races through a mine cave while attacking enemies and collecting gems.
+            <br><br>Created During: National High School Game Academy (Carnegie Mellon University Pre-College)
+            <br><br>Role: Lead Programmer
+            <br><br>Languages/Tools Used: C#, Unity
+          </p>
+        </div>
+        <div class="col-sm-6 text-center">
+          <img class="pic gem-pic" src="images/gem-start-screen.jpg" alt="Gif of App">
+          <p>Start Screen</p>
+        </div>
       </div>
-      <div class="col-sm-6">
-        <img class="pic gem-pic" src="images/gem-start-screen.jpg" alt="Gif of App">
-      </div>
-      <div style="margin-top:5px" class="col-sm-12">
-        <img class="pic gem-pic small-pic" src="images/gem-tilt.gif" alt="Gif of player tilting">
-        <img class="pic gem-pic small-pic" src="images/gem-gem.gif" alt="Gif of gem collection">
-        <img class="pic gem-pic small-pic" src="images/gem-bat.gif" alt="Gif of enemy bat">
+      <div class="row">
+        <!-- <div style="margin-top:5px" class="col-sm-12">
+          <img class="pic gem-pic small-pic" src="images/gem-tilt.gif" alt="Gif of player tilting">
+          <img class="pic gem-pic small-pic" src="images/gem-gem.gif" alt="Gif of gem collection">
+          <img class="pic gem-pic small-pic" src="images/gem-bat.gif" alt="Gif of enemy bat">
+        </div> -->
+        <div style="margin-top:5px" class="col-sm-4">
+          <img class="pic gem-row-pic" src="images/gem-tilt.gif" alt="Gif of player tilting">
+          <p>Player Tilting</p>
+        </div>
+        <div style="margin-top:5px" class="col-sm-4">
+          <img class="pic gem-row-pic" src="images/gem-gem.gif" alt="Gif of gem collection">
+          <p>Collecting Gem</p>
+        </div>
+        <div style="margin-top:5px" class="col-sm-4">
+          <img class="pic gem-row-pic" src="images/gem-bat.gif" alt="Gif of enemy bat">
+          <p>Attacking Enemy Bat</p>
+        </div>
       </div>
     </div>
     <!-- Chinese Checkers AI-->
@@ -80,7 +97,7 @@
           <br><br>Created During: Norcal Hacks
           <br><br>Awarded: First Place out of 100+ participants
           <br><br>Languages/Tools Used: Java
-          <br><br><a href="https://devpost.com/software/noise-alerter" target="blank">Full Demo</a>
+          <br><br><a href="https://devpost.com/software/noise-alerter" target="blank" class="app-link">Full Demo</a>
         </p>
       </div>
       <div class="col-sm-6">
@@ -96,8 +113,8 @@
         <p class="app-descrip">A productivity app that displays the user's schedule in a color-coded clock. The app also uses text-to-speech to notify the user when it is time to start their next task.
           <br><br>Created During: CodeHers Hack
           <br><br>Awarded: Best App out of 100+ participants
-          <br><br>Languages/Tools Used: Java, Android
-          <br><br><a href="https://devpost.com/software/schedulable" target="blank">Full Demo</a>
+          <br><br>Languages/Tools Used: Java, Android Studio
+          <br><br><a href="https://devpost.com/software/schedulable" target="blank" class="app-link">Full Demo</a>
         </p>
       </div>
       <div class="col-sm-6">
@@ -105,9 +122,71 @@
         <img class="pic app-pic" src="images/schedulable-clock.gif" alt="Gif of App">
       </div>
     </div>
+    <!-- Food Run -->
+    <div id="schedulable" class="row app">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="book-title">Egg Run</h2>
+          <p class="app-descrip">A 2D running game where the player rolls as an egg and then flies as a bird while avoiding obstacles. Uses realistic physically-based motion and collision detection and includes background music and sound effects.
+            <br><br>Created During: Superposition V Hackathon
+            <br><br>Awarded: Best Game out of 300+ participants
+            <br><br>Languages/Tools Used: Java, Android Studio
+            <br><br><a href="https://devpost.com/software/food-run-rl2kvo" target="blank" class="app-link">Full Demo</a>
+            <br><br>Added more features after the hackathon:
+          </p>
+        </div>
+        <div class="col-sm-6 text-center">
+          <img class="pic egg-pic" src="images/egg-run-egg.gif" alt="Gif of App">
+          <img class="pic egg-pic" src="images/egg-run-bird.gif" alt="Gif of App">
+        </div>
+      </div>
+      <div class="row">
+        <div style="margin-top:5px" class="col-sm-4">
+          <img class="pic food-row-pic" src="images/food-run.png" alt="Picture of App">
+        </div>
+        <div style="margin-top:5px" class="col-sm-4">
+          <img class="pic food-row-pic" src="images/food-run-donut.gif" alt="Gif of App">
+        </div>
+        <div style="margin-top:5px" class="col-sm-4">
+          <img class="pic food-row-pic" src="images/food-run-balloon.gif" alt="Gif of app">
+        </div>
+      </div>
+    </div>
+    <!-- T*bert -->
+    <div id="tbert" class="row app">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="book-title">T*Bert</h2>
+          <p class="app-descrip">A remake of the arcade game Q*bert with added features and changed theme. The player controls the green dinosaur and tries to turn all of the tiles yellow while avoiding enemies like the purple frog.
+            <br><br>Created During: National High School Game Academy
+            <br><br>Role: Programmer
+            <br><br>Languages/Tools Used: C#, Unity
+          </p>
+        </div>
+        <div class="col-sm-6 text-center">
+          <img class="pic gem-pic" src="images/tbert-tiles.gif" alt="Gif of App">
+        </div>
+      </div>
+    </div>
+    <!-- Notle-->
+    <div id="notle" class="row app">
+      <div class="col-sm-6">
+        <h2 class="book-title">Notle</h2>
+        <p class="app-descrip">A guessing game inspired by Wordle but instead of guessing a word, the player guesses the notes in a melody that is played. Provides a fun and engaging way for musicians to hone their listening skills.
+          <br><br>Created During: Sonoma Hacks
+          <br><br>Languages/Tools Used: Java, Android Studio
+          <br><br><a href="https://devpost.com/software/notle" target="blank" class="app-link">Full Demo</a>
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <img class="pic app-pic" src="images/notle-home.png" alt="Picture of App">
+        <img class="pic app-pic" src="images/notle.gif" alt="Gif of App">
+      </div>
+    </div>
+   
     <div style="clear:both"></div>
   </div>
-
+ 
   <!-- Translations -->
   <div id="translations" class="row section">
     <h1 class="section-title white-text">Translations</h1>
