@@ -1,2 +1,2 @@
 User-agent: Googlebot
-Sitemap: http://vivianzhao.info/sitemap.xml
+Sitemap: http://www.vivianzhao.site/sitemap.xml
