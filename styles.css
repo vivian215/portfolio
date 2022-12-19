@@ -123,15 +123,7 @@ p {
  
 
  
-@media (max-width: 1000px) {
-    .sidebar {
-        display: none;
-    }
-    #body {
-        width: 100%;
-        margin-left: 0;
-    }
-}
+
  
 .section {
     padding-left: 5%;
@@ -203,6 +195,10 @@ p {
     margin-bottom: 7%;
 }
 
+.book-length {
+    margin-top:15%;
+}
+
 .vertical-book {
     max-width: 50%;
 }
@@ -224,13 +220,21 @@ p {
     margin-bottom: 10px;
     margin-right: 5%;
 }
+
+.pro-pic {
+    max-width: 80%;
+}
+
+.pro-caption {
+    font-size: 18px;
+}
  
 .gem-pic, .checkers-pic, .gem-row-pic {
     border: 3px solid #3b3b3b;
 }
  
 .gem-row-pic {
-    max-width: 80%;
+    max-width: 90%;
 }
  
 .small-pic {
@@ -285,3 +289,15 @@ p {
     border: 3px solid #3b3b3b;
 }
 
+@media (max-width: 1000px) {
+    .sidebar {
+        display: none;
+    }
+    #body {
+        width: 100%;
+        margin-left: 0;
+    }
+    .book-length {
+        margin-top: 4%;
+    }
+}
