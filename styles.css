@@ -202,13 +202,13 @@ p {
 }
  
 .book-link {
-    color: white;
+    color: rgb(129, 177, 255);
     font-size: 20px;
     text-decoration-line: underline;
 }
  
 .book-link:hover, .web-link:hover {
-    color: rgb(131, 177, 247);
+    color: rgb(56, 90, 139);
 }
  
 #book-date {
@@ -219,12 +219,21 @@ p {
     margin-bottom: 7%;
 }
 
+.book-pic {
+    border: 3px solid #3b3b3b;
+}
+
 .book-length {
     margin-top:15%;
 }
 
 .vertical-book {
     max-width: 50%;
+}
+
+
+.bigger-book {
+    max-width: 70%; 
 }
  
 #apps {
