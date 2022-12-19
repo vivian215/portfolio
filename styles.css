@@ -135,7 +135,7 @@ p {
     background-color: #536f85;
     /* background-color: rgb(143, 143, 143); */
     /* height: 800px; */
-    padding-bottom: 130px;
+    padding-bottom: 5%;
 }
  
 .white-text {
@@ -147,6 +147,10 @@ p {
     padding-top: 50px;
     font-weight: 500;
     margin-bottom: 5%;
+}
+
+#about-me-title {
+    margin-bottom: 2%;
 }
  
 /* top, right, bottom, left */
