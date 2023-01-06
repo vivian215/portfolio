@@ -42,7 +42,6 @@
   <!-- About Me -->
   <div id="about-me" class="row">
     <h2 class="section-title white-text" id="about-me-title">About Me</h2>
-    <!-- <div class="col-sm-6 text-center pic"><img id="vivian-pic" src="images/vivian-pic.jpg" alt="Picture of Me!"></div> -->
     <p class="white-text col-sm-12" id="about-me-text">My name is Vivian Zhao, and I am currently a senior at Lynbrook High School. This website contains my coding projects, translations, websites, and artwork! When I'm not working on one of these projects, you'll most likely find me at the piano, on the tennis court, curled up with a good book, or playing video games with friends.</p>
     <div style="clear:both"></div>
   </div>
@@ -51,35 +50,37 @@
   <div id="apps" class="row section">
     <h2 class="section-title" id="apps-title">Coding Projects</h2>
     <!-- Noise Alerter Pro -->
-    <div id="noise-alerter-pro" class="row app">
+    <div id="noise-alerter-pro" class="row app" style="padding-right:2%">
       <div class="row">
         <div class="col-sm-6">
           <h2 class="book-title">Noise Alerter Pro</h2>
-          <p class="app-descrip">A home security app that utilizes machine learning and audio signal processing to classify security-related sounds such as smoke detectors, walking, and knocking.
+          <p class="app-descrip">An Android-based home security application that utilizes machine learning and audio signal processing to perform real-time sound analysis and categorize sounds (i.e. smoke detectors, knocking, glass breaking, doorbells, dog barking, and other noises).
             <br><br>Languages/Tools Used: Python, TensorFlow, Keras, Librosa, Java, Android Studio
+            <br><br><a href="https://youtu.be/JsNId_VzClo" target="blank" class="app-link">Demonstration Video</a>
+            <br><br><a href="https://www.bit.ly/3VPI6js" target="blank" class="app-link">Technical Documentation</a>
           </p>
         </div>
         <div class="col-sm-3 text-center">
-          <img class="pic app-pic pro-pic" src="images/pro1.gif" alt="Gif of app detecting smoke detector">
-          <p>Detecting smoke detector</p>
+          <img class="pic app-pic pro-pic" src="images/pro-knocking.gif" alt="Gif of app detecting knocks">
+          <p>Detecting knocks;<br>shows spectrogram</p>
         </div>
         <div class="col-sm-3 text-center">
-          <img class="pic app-pic pro-pic" src="images/pro2.gif" alt="Gif of app detecting footsteps">
-          <p>Detecting footsteps</p>
+          <img class="pic app-pic pro-pic" src="images/pro-smoke.gif" alt="Gif of app detecting smoke detector">
+          <p>Detecting smoke detector;<br>shows FFT graph</p>
         </div>
       </div>
       <div class="row" style="margin-top:2%">
         <div style="margin-top:5px" class="col-sm-4">
-          <img class="pic gem-row-pic" src="images/decibel.gif" alt="Closeup of decibel meter and audio signal">
-          <p class="pro-caption">Decibel meter (top): tracking volume in real time<br>Audio signal (bottom): red area means detection has been triggered</p>
+          <img class="pic gem-row-pic" src="images/decibel.png" alt="Closeup of decibel meter and audio signal">
+          <p class="pro-caption">Decibel meter (top): tracks volume in real time<br>Audio signal (bottom): red area means detection has been triggered</p>
         </div>
         <div style="margin-top:5px" class="col-sm-4">
-          <img class="pic gem-row-pic" src="images/spectrogram.gif" alt="Closeup of spectrogram during smoke detector">
-          <p class="pro-caption">Frequency domain over time</p>
+          <img class="pic gem-row-pic" src="images/spectrogram.png" alt="Closeup of spectrogram during knocking">
+          <p class="pro-caption">Frequency domain over time for three sets of knocks</p>
         </div>
         <div style="margin-top:5px" class="col-sm-4">
-          <img class="pic gem-row-pic" src="images/pro-bars.gif" alt="Closeup of machine learning detection results">
-          <p class="pro-caption">Bar heights represent likelihood of each sound<br>For example, 4 out of 5 predictions showed a high probability for smoke detector</p>
+          <img class="pic gem-row-pic" src="images/classification.png" alt="Closeup of machine learning detection results">
+          <p class="pro-caption">Right: bar heights represent likelihood of each sound; for example, 4 out of 5 predictions showed a high probability for pro-knocking<br>Left: length of bar represents overall likelihood of a sound</p>
         </div>
       </div>
     </div>
