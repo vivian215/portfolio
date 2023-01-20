@@ -322,6 +322,7 @@ p {
     border: 3px solid #3b3b3b;
 }
 
+
 @media (max-width: 1000px) {
     .sidebar {
         display: none;
