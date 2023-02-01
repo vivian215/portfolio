@@ -85,6 +85,62 @@
       </div>
     </div>
     <hr class="line">
+    <!-- Machine Translation -->
+    <div id="noise-alerter" class="row app">
+      <div class="col-sm-4">
+        <h2 class="book-title">Machine Translation: Research Project</h2>
+        <p class="app-descrip">To synthesize my passions for computer science and translation, I decided to research the capabilities and limitations of machine translation, as well as create a tool for my translation purposes. While Google Translate is quite powerful, it fails to match my translation accuracy and styles. Thus, I decided to use my own translations as input to fine-tune a custom machine translation model. After segmenting over 2,000 sentences, generating the language pairs, and manually correcting mismatches, I successfully trained a custom translation model. The BLEU score¹ increased from 0.18 (significant errors) to 0.36 (good translation quality). My custom model was able to capture the specific terms, tenses, and sentence structures that I tend to use.
+          <br><br>[1] a metric for evaluating machine-translated text
+          <br><br>Languages/Tools Used: Python, HANLP and NLTK for sentence segmentation, Google AutoML for training and evaluation
+        </p>
+      </div>
+      <div class="col-sm-8" style="padding-left:3%">
+        <h2 style="font-size:25px">Examples (taken directly from the machine translations)</h2>
+        <div id="mt-box">
+          <!-- example 1 -->
+          <div class="row">
+            <div class="col-sm-6">
+              <p>Chinese</p>
+              <div class="mt-text-box">船只泊岸，这里的<span class="improve2-text">克隆人</span>军队已不像东方大陆一般戒备森严。</div>
+              <p><br>Improvements:
+                <ul>
+                  <li class="improve improve1">Google Translate produces a run-on sentence; my custom model produces two grammatically correct sentences</li>
+                  <li class="improve improve2">In my translation, I chose to use the term "android" as opposed to the literal translation of "clone." The custom model picked up on this</li>
+                  <li class="improve improve3">I use a casual narration style, so I tend to use apostrophes. The custom model used "wasn't," whereas Google Translate used "was not"</li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <p>English (custom model)</p>
+              <div class="mt-text-box">The ship moored ashor<span class="improve1-text">e. </span>The <span class="improve2-text">android</span> army here <span class="improve3-text">wasn't</span> as heavily guarded as it was on the eastern mainland.</div>
+              <p><br>English (Google Translate)</p>
+              <div class="mt-text-box">The ship berthe<span class="improve1-text">d, </span>the <span class="improve2-text">clone</span> army here <span class="improve3-text">was not</span> as heavily guarded as the Eastern Continent.</div>
+            </div>
+          </div>
+          <!-- example 2 -->
+          <div class="row" style="margin-top:5%">
+            <div class="col-sm-6">
+              <p>Chinese</p>
+              <div class="mt-text-box">整个大厅内顿时<span class="improve1-text">炸锅</span>了，<span class="improve2-text">飞洛</span>的子弹<span class="improve3-text">发生了大爆炸</span>。</div>
+              <p><br>Improvements:
+                <ul>
+                  <li class="improve improve1">The Chinese sentence uses an idiomatic expression that literally means "exploded pot." My custom model correctly translated it as "in an uproar," whereas Google Translate used the literal translation of "exploded"</li>
+                  <li class="improve improve2">My custom model correctly translates the name "Feiluo"</li>
+                  <li class="improve improve3">Overall, my custom model produces more varied and interesting sentence structure</li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <p>English (custom model)</p>
+              <div class="mt-text-box">In an instant, the entire hall was <span class="improve1-text">in an uproar</span>, as <span class="improve2-text">Feiluo’s</span> bullet <span class="improve3-text">caused a huge explosion</span>.</div>
+              <p><br>English (Google Translate)</p>
+              <div class="mt-text-box">The entire hall suddenly <span class="improve1-text">exploded</span>, and <span class="improve2-text">Fei Luo's</span> bullets <span class="improve3-text">exploded</span>.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="line">
     <!-- Noise Alerter -->
     <div id="noise-alerter" class="row app">
       <div class="col-sm-6">
@@ -100,7 +156,6 @@
         <img class="pic app-pic" src="images/noise-alerter.gif" alt="Gif of app detecting volume">
         <img class="pic app-pic" src="images/noise-alerter-pic.png" alt="Picture of app with list of sound alerts">
       </div>
-      
     </div>
     <hr class="line">
     <!-- Gem Rush -->

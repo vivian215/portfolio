@@ -186,7 +186,6 @@ p {
 #apps {
     background-color: #dfdedc;
     /* background-color:rgb(214, 214, 214); */
- 
 }
  
 /* translations :) */
@@ -260,6 +259,60 @@ p {
 
 .pro-caption {
     font-size: 18px;
+}
+
+#mt-box {
+    background-color:#cacaca;
+    width: 95%;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+.mt-text-box {
+    background-color: white;
+    font-size: 18px;
+    padding: 3%;
+}
+
+li {
+    font-size: 15px;
+}
+
+ul {
+    list-style:none;
+}
+
+.improve::before {
+    font-size: 25px;
+    content: "\25A0";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.improve1::before {
+    color:rgb(107, 201, 88)
+}
+
+.improve2::before {
+    color:rgb(76, 184, 184);
+}
+
+.improve3::before {
+    color:rgb(178, 104, 212);
+}
+
+.improve1-text {
+    background-color: rgb(187, 247, 176);
+}
+
+.improve2-text {
+    background-color: rgb(151, 221, 221);
+}
+
+.improve3-text {
+    background-color:rgb(218, 194, 230);
 }
  
 .gem-pic, .checkers-pic, .gem-row-pic {
