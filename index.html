@@ -89,13 +89,13 @@
     <div id="noise-alerter" class="row app">
       <div class="col-sm-4">
         <h2 class="book-title">Research Project: Personalized Literary Machine Translation</h2>
-        <p class="app-descrip">To synthesize my passions for computer science and translation, I decided to research the capabilities and limitations of machine translation, as well as create a tool for my translation purposes. While Google Translate is quite powerful, it fails to match my translation accuracy and styles. Thus, I decided to use my own translations as input to fine-tune a custom machine translation model. After segmenting over 2,000 sentences, generating the language pairs, and manually correcting mismatches, I successfully trained a custom translation model. The BLEU score¹ increased from 0.18 (significant errors) to 0.36 (good translation quality). My custom model was able to capture the specific terms, tenses, and sentence structures that I tend to use.
-          <br><br>[1] a metric for evaluating machine-translated text
+        <p class="app-descrip">To synthesize my passions for computer science and translation, I researched the capabilities and limitations of machine translation by creating a tool for my translation purposes. While Google Translate is quite powerful, it fails to match my translation accuracy and styles. Thus, I decided to use my own translations to fine-tune a pre-trained machine translation model. After segmenting over 2,000 sentences, I used the language pairs as training input to create a custom translation model, which was able to capture the specific terms, tenses, and sentence structures I tend to use. The BLEU score¹ increased from 18.6 (significant errors) to 35.2 (good translation quality). 
           <br><br>Languages/Tools Used: Python, HANLP and NLTK for sentence segmentation, Google AutoML for training and evaluation
+          <br><br><span style="font-size:15px">[1] a metric for evaluating machine-translated text</span>
         </p>
       </div>
       <div class="col-sm-8" style="padding-left:3%">
-        <h2 style="font-size:25px">Examples (taken directly from the machine translations)</h2>
+        <h2 style="font-size:25px">Examples Outputs (comparison between my custom translation model and standard Google Translate)</h2>
         <div id="mt-box">
           <!-- example 1 -->
           <div class="row">
